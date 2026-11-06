@@ -26,20 +26,20 @@ requires-python = ">=3.11"
 # so ranges don't apply). The exact versions we test against are recorded in
 # `uv.lock` at the workspace root.
 dependencies = [
-    "accelerate>=1.12,<2.0",
+    "accelerate>=1.15.0,<2.0",
     "coreai-core==1.0.0b2",
     "coreai-torch==0.4.1",
     "coreai-opt==0.2.1",
-    "torch==2.9.0",
+    "torch==2.10.0",
     "numpy>=2.2,<3.0",
     "tqdm>=4.67,<5.0",
     "rich>=14.0,<15.0",
-    "transformers>=4.57,<5.0",
+    "transformers>=5.22.1,<6.0",
     "huggingface-hub>=0.34,<1.0",
     "safetensors>=0.5,<1.0",
     "sentencepiece>=0.2,<1.0",
     "tokenizers>=0.22,<1.0",
-    "diffusers>=0.37,<1.0",
+    "diffusers>=0.42.1,<1.0",
 ]
 
 [project.scripts]
